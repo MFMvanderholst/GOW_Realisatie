@@ -1,0 +1,21 @@
+{
+  "name": "gow_realisatie",
+  "version": "1.0.0",
+  "description": "website voor de realisatie van Grafisch Ontwerp voor Websites vak",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass -w scss:css",
+    "minify": "sass -w scss:css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MFMvanderholst/GOW_Realisatie.git"
+  },
+  "author": "Maurits van der Holst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MFMvanderholst/GOW_Realisatie/issues"
+  },
+  "homepage": "https://github.com/MFMvanderholst/GOW_Realisatie#readme"
+}
