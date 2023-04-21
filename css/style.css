@@ -1,0 +1,22 @@
+.Background {
+  display: flex;
+}
+.Background div img {
+  z-index: 0;
+  position: relative;
+}
+.Background img {
+  position: absolute;
+  height: auto;
+  z-index: -1;
+}
+
+* {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
