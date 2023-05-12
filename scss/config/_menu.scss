@@ -1,0 +1,37 @@
+header {
+    z-index: 1;
+    position: fixed;
+    height: 3em;
+    .header_img {
+        position: absolute;
+        height: auto;
+    }
+
+    nav {
+       display: grid;
+       justify-items: end;
+       
+
+        ul{
+            display: flex;
+            position: relative;
+            list-style-type: none;
+            width: 70em;
+            height: 4.5em;
+
+            li {
+                z-index: 2;
+                border: 9px solid black;
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    font-family: 'Bodoni MT black';
+                    color: black;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

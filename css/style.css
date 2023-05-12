@@ -1,14 +1,56 @@
 .Background {
   display: flex;
 }
-.Background div img {
-  z-index: 0;
-  position: relative;
-}
-.Background img {
+.Background .background {
   position: absolute;
   height: auto;
   z-index: -1;
+}
+.Background .logo {
+  z-index: 0;
+  position: relative;
+  top: 3rem;
+  left: -4rem;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  height: 3em;
+}
+header .header_img {
+  position: absolute;
+  height: auto;
+}
+header nav {
+  display: grid;
+  justify-items: end;
+}
+header nav ul {
+  display: flex;
+  position: relative;
+  list-style-type: none;
+  width: 70em;
+  height: 4.5em;
+}
+header nav ul li {
+  z-index: 2;
+  border: 9px solid black;
+}
+header nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Bodoni MT black";
+  color: black;
+  font-size: 2rem;
+}
+
+.footer_page {
+  height: auto;
+  position: absolute;
+  height: auto;
 }
 
 * {

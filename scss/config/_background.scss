@@ -1,14 +1,18 @@
 .Background {
     display: flex;
-    div {
-        img {
-            z-index: 0;
-            position: relative;
-        }
-    }
-    img {
+    
+    
+    .background {
         position: absolute;
         height: auto;
         z-index: -1;
     }
+
+            .logo {
+                z-index: 0;
+                position: relative;   
+                top: 3rem;
+                left: -4rem;
+
+        }
 }
