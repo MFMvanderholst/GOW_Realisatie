@@ -1,0 +1,51 @@
+@use 'config/menu';
+@use 'config/footer';
+@use 'config/background';
+
+main {
+    h1 {
+        position: relative;
+        font-family: 'Bodoni MT black';
+        font-size: 3em;
+        top: 2em;
+    }
+
+    .aboutusbanner {
+        position: relative;
+        height: 22em;
+        top: 9em;   
+    }
+
+    div {
+        position: relative;
+        top: 11rem;
+
+        .info {
+            left: 10em;
+        }
+
+        .place-1 {
+            height: 7em;
+            width: 7em;
+            position: relative;
+            top: 18rem;
+            right: 22em;
+        }
+
+        .place-2 {
+            height: 7em;
+            width: 7em;
+            position: relative;
+            top: 40em;
+            right: 18em;
+        }
+
+        .place-3 {
+            height: 7em;
+            width: 7em;
+            position: relative;
+            top: 48em;
+            right: 32em;
+        }
+    }
+}

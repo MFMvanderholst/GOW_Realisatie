@@ -1,0 +1,98 @@
+header {
+  z-index: 1;
+  position: fixed;
+  height: 3em;
+}
+header .header_img {
+  position: absolute;
+  height: auto;
+}
+header nav {
+  display: grid;
+  justify-items: end;
+}
+header nav ul {
+  display: flex;
+  position: relative;
+  list-style-type: none;
+  width: 67em;
+  height: 4.5em;
+}
+header nav ul li {
+  z-index: 2;
+  border: 6px solid black;
+}
+header nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Bodoni MT black";
+  color: black;
+  font-size: 2rem;
+}
+
+.footer_page {
+  height: auto;
+  position: absolute;
+  height: auto;
+  top: 0em;
+}
+
+.Background {
+  display: flex;
+  position: absolute;
+}
+.Background .background {
+  position: absolute;
+  height: auto;
+  z-index: -1;
+}
+.Background .logo {
+  z-index: 0;
+  position: relative;
+  top: 3rem;
+  left: -4rem;
+}
+
+main h1 {
+  position: relative;
+  font-family: "Bodoni MT black";
+  font-size: 3em;
+  top: 2em;
+}
+main .aboutusbanner {
+  position: relative;
+  height: 22em;
+  top: 9em;
+}
+main div {
+  position: relative;
+  top: 11rem;
+}
+main div .info {
+  left: 10em;
+}
+main div .place-1 {
+  height: 7em;
+  width: 7em;
+  position: relative;
+  top: 18rem;
+  right: 22em;
+}
+main div .place-2 {
+  height: 7em;
+  width: 7em;
+  position: relative;
+  top: 40em;
+  right: 18em;
+}
+main div .place-3 {
+  height: 7em;
+  width: 7em;
+  position: relative;
+  top: 48em;
+  right: 32em;
+}
+
+/*# sourceMappingURL=aboutus.css.map */
