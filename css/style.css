@@ -30,12 +30,12 @@ header nav ul {
   display: flex;
   position: relative;
   list-style-type: none;
-  width: 70em;
+  width: 67em;
   height: 4.5em;
 }
 header nav ul li {
   z-index: 2;
-  border: 9px solid black;
+  border: 6px solid black;
 }
 header nav ul li a {
   display: flex;
@@ -51,6 +51,89 @@ header nav ul li a {
   height: auto;
   position: absolute;
   height: auto;
+  top: 0em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main div {
+  display: flex;
+  flex-direction: row;
+}
+main div .banner {
+  margin: 0 9em;
+}
+main div .banner img {
+  width: 30em;
+  height: 32em;
+  border-radius: 20px;
+}
+main div .info img {
+  position: absolute;
+  z-index: 0;
+  width: 30em;
+  height: 32em;
+  border-radius: 20px;
+}
+main div .info div.text {
+  position: relative;
+  flex-direction: column;
+  width: 27em;
+  height: 17em;
+  top: 5em;
+  left: 2em;
+}
+main div {
+  display: flex;
+  flex-direction: row;
+}
+main div .galerij {
+  width: 30em;
+  height: 30em;
+  padding: 10em 0em;
+  margin: 0 9em;
+  display: flex;
+  flex-direction: column;
+}
+main div .galerij img {
+  border-radius: 20px;
+}
+main div .galerij button {
+  width: 7em;
+  height: 3em;
+  margin: 4em 9em;
+  background-color: #DA3AD3;
+  border-radius: 15px;
+}
+main div .product {
+  width: 30em;
+  height: 30em;
+  padding: 10em 0em;
+  margin: 0 9em;
+  display: flex;
+  flex-direction: column;
+}
+main div .product img {
+  border-radius: 20px;
+}
+main div .product button {
+  width: 7em;
+  height: 3em;
+  margin: 4em 9em;
+  background-color: #DA3AD3;
+  border-radius: 15px;
+}
+
+h3 {
+  position: relative;
+  font-family: "Bodoni MT black";
+}
+
+p {
+  position: relative;
+  font-family: "Bodoni MT";
 }
 
 * {

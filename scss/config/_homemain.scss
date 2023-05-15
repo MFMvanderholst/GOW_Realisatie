@@ -1,0 +1,88 @@
+main {
+    display: flex;
+    flex-direction: column;
+    div {
+        display: flex;
+        flex-direction: row;
+        .banner {
+            margin: 0 9em;
+            img {
+                width: 30em;
+                height: 32em;
+                border-radius: 20px;
+            }
+        }
+        .info {
+            img {
+                position: absolute;
+                z-index: 0;
+                width: 30em;
+                height: 32em;
+                border-radius: 20px;
+                
+            }
+            div.text {
+                position: relative;
+                
+                flex-direction: column;
+                width: 27em;
+                height: 17em;
+                top: 5em;
+                left: 2em;
+                
+            }
+            
+        }
+        
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+
+        .galerij {
+            width: 30em;
+            height: 30em;
+            padding: 10em 0em;
+            margin: 0 9em;
+            display: flex;
+            flex-direction: column;
+            img {
+                border-radius: 20px;
+            }
+            button {
+                width: 7em;
+                height: 3em;
+                margin: 4em 9em;
+                background-color: #DA3AD3;
+                border-radius: 15px
+            }
+        }
+        .product {
+            width: 30em;
+            height: 30em;
+            padding: 10em 0em;
+            margin: 0 9em;
+            display: flex;
+            flex-direction: column;
+            img {
+                border-radius: 20px;
+            }
+            button {
+                width: 7em;
+                height: 3em;
+                margin: 4em 9em;
+                background-color: #DA3AD3;
+                border-radius: 15px
+            }
+        }
+    };
+}
+h3{
+    position: relative;
+    font-family: 'Bodoni MT black';
+}
+
+p {
+    position: relative;
+    font-family: 'Bodoni MT';
+}
