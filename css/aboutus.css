@@ -35,7 +35,6 @@ header nav ul li a {
 .footer_page {
   height: auto;
   position: absolute;
-  height: auto;
   top: 0em;
 }
 
@@ -49,6 +48,38 @@ header nav ul li a {
   z-index: -1;
 }
 .Background .logo {
+  z-index: 0;
+  position: relative;
+  top: 3rem;
+  left: -4rem;
+}
+
+.Background2 {
+  display: flex;
+  position: absolute;
+}
+.Background2 .background2 {
+  position: absolute;
+  height: auto;
+  z-index: -1;
+}
+.Background2 .logo {
+  z-index: 0;
+  position: relative;
+  top: 3rem;
+  left: -4rem;
+}
+
+.Background3 {
+  display: flex;
+  position: absolute;
+}
+.Background3 .background3 {
+  position: absolute;
+  height: auto;
+  z-index: -1;
+}
+.Background3 .logo {
   z-index: 0;
   position: relative;
   top: 3rem;

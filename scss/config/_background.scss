@@ -16,3 +16,41 @@
 
         }
 }
+
+.Background2 {
+    display: flex;
+    position: absolute;
+    
+    .background2 {
+        position: absolute;
+        height: auto;
+        z-index: -1;
+    }
+
+            .logo {
+                z-index: 0;
+                position: relative;   
+                top: 3rem;
+                left: -4rem;
+
+        }
+}
+
+.Background3 {
+    display: flex;
+    position: absolute;
+    
+    .background3 {
+        position: absolute;
+        height: auto;
+        z-index: -1;
+    }
+
+            .logo {
+                z-index: 0;
+                position: relative;   
+                top: 3rem;
+                left: -4rem;
+
+        }
+}

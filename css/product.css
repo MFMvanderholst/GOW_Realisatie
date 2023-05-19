@@ -1,0 +1,84 @@
+footer {
+  position: absolute;
+  top: 315em;
+}
+
+.info {
+  padding: 4em 4em;
+  height: 153rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.line1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0em 1em;
+  right: 4em;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 3em;
+}
+
+.line3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 2em;
+}
+
+.des1 {
+  width: 19em;
+  height: 32em;
+  rotate: 284deg;
+  position: relative;
+  left: 9em;
+}
+
+.des2 {
+  width: 14em;
+  height: 19em;
+  rotate: 264deg;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  height: 1em;
+}
+
+.alinea1 {
+  margin: 0 7em;
+  right: 7em;
+  top: 1em;
+}
+
+.alinea2 {
+  margin: 0em 0em;
+  bottom: 4em;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-wrap: nowrap;
+}
+
+p {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=product.css.map */
