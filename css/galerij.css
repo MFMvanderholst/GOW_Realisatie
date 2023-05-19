@@ -1,0 +1,96 @@
+header {
+  z-index: 1;
+  position: fixed;
+  height: 3em;
+}
+header .header_img {
+  position: absolute;
+  height: auto;
+}
+header nav {
+  display: grid;
+  justify-items: end;
+}
+header nav ul {
+  display: flex;
+  position: relative;
+  list-style-type: none;
+  width: 67em;
+  height: 4.5em;
+}
+header nav ul li {
+  z-index: 2;
+  border: 6px solid black;
+}
+header nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Bodoni MT black";
+  color: black;
+  font-size: 2rem;
+}
+
+.footer_page {
+  height: auto;
+  position: absolute;
+  height: auto;
+  top: 0em;
+}
+
+.Background {
+  display: flex;
+  position: absolute;
+}
+.Background .background {
+  position: absolute;
+  height: auto;
+  z-index: -1;
+}
+.Background .logo {
+  z-index: 0;
+  position: relative;
+  top: 3rem;
+  left: -4rem;
+}
+
+.info {
+  border: 3px hidden;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 1em 1em;
+  margin: 7em 1em;
+  width: 73em;
+}
+
+.galerij {
+  width: 20em;
+  height: 20em;
+}
+
+.deg1 {
+  rotate: 180deg;
+  width: 12em;
+}
+
+.deg2 {
+  rotate: 90deg;
+  width: 12em;
+}
+
+.deg3 {
+  rotate: 270deg;
+  width: 12em;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.title h2 {
+  font-family: "Bodoni MT black";
+  font-size: 70px;
+}
+
+/*# sourceMappingURL=galerij.css.map */

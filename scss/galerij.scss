@@ -1,0 +1,41 @@
+@use 'config/menu';
+@use 'config/footer';
+@use 'config/background';
+
+.info {
+    border: 3px hidden;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 1em 1em;
+    margin: 7em 1em;
+    width: 73em;
+}
+
+.galerij {
+    width: 20em;
+    height: 20em;
+}
+
+.deg1 {
+    rotate: 180deg;
+    width: 12em;
+}
+
+.deg2 {
+    rotate: 90deg;
+    width: 12em;
+}
+
+.deg3 {
+    rotate: 270deg;
+    width: 12em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    h2 {
+        font-family: 'Bodoni MT black';
+        font-size: 70px;
+    }
+}

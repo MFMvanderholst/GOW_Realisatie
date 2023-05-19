@@ -74,7 +74,7 @@ main div {
   display: flex;
   flex-direction: row;
 }
-main div .galerij {
+main div .galerijpage {
   width: 30em;
   height: 30em;
   padding: 10em 0em;
@@ -82,10 +82,10 @@ main div .galerij {
   display: flex;
   flex-direction: column;
 }
-main div .galerij img {
+main div .galerijpage img {
   border-radius: 20px;
 }
-main div .galerij button {
+main div .galerijpage button {
   width: 7em;
   height: 3em;
   margin: 4em 9em;
